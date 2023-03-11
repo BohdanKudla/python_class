@@ -16,3 +16,4 @@ elif discriminant == 0:
 else:
     print('Нет корней')
 
+
