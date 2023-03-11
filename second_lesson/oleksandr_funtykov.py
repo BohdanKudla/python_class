@@ -15,3 +15,4 @@ elif discriminant == 0:
     print('Один корень x=', x)
 else:
     print('Нет корней')
+
