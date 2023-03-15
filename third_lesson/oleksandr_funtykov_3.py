@@ -5,4 +5,4 @@ try:
     min_number = min(numbers_list)
     print(f'Минимальное число: {min_number}')
 except ValueError:
-    print('Ошибка: вы ввели некорректные данные!!')
+    print('Ошибка: вы ввели некорректные данные!')
