@@ -2,7 +2,11 @@ numbers = input('Введите список чисел через запяту�
 
 try:
     numbers_list = [float(num) for num in numbers.split(',')]
-    min_number = min(numbers_list)
-    print(f'Минимальное число: {min_number}')
+    #print(f'Минимальное число: {min(numbers_list)}')
+    min_number = numbers_list[0]
+    for num in numbers_list:
+        if num < min_number:
+            min_number = num
+    print(min_number)
 except ValueError:
     print('Ошибка: вы ввели некорректные данные!')
