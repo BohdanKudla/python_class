@@ -1,4 +1,4 @@
 import requests
 
-response = requests.get('https://lms.ithillel.ua/').text
+response = requests.get('https://ithillel.ua/').text
 print(response)
