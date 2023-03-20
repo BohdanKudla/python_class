@@ -1,4 +1,6 @@
 #Алгоритм нахождения минимума в списке
+
+
 print('Enter a list of numbers: ')
 while True:
     try:
