@@ -5,8 +5,7 @@ index_list = []
 
 try:
     for ele in number_list:
-        int_ele = int(ele)
-        index_list.append(int_ele)
+        index_list.append(int(ele))
 except ValueError:
     print("ERROR:Не вернный ввод, проверьте наявность чисел и пробелов")
 
